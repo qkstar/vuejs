@@ -1,0 +1,30 @@
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+  <ul>
+    <li v-for="(value,key) in object">이름: {{value}} 나이: {{value}}</li>
+  </ul>
+</div>
+<script>
+  new Vue({
+    el:'#app',
+    data: {
+      object:{
+        name: 'OhJooYeon',
+        age: '23'
+      },
+      object:{
+        name: 'OhHaNa',
+        age: '28'
+      },
+      object:{
+        name: 'Woo',
+        age: '29'
+      },
+      object:{
+        name: 'Wooks',
+        age: '30'
+      }
+    }
+  });
+
+</script>

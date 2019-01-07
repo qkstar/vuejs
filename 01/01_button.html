@@ -1,0 +1,14 @@
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+  <button v-bind:disabled="isButtonDisabled">Button</button>
+</div>
+<script>
+  new Vue({
+    el:'#app',
+    data:{
+      //isButtonDisabled: false //활성화
+      //isButtonDisabled: true //비활성화
+    }
+  });
+
+</script>
